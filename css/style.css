@@ -50,6 +50,8 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo-web {
@@ -140,12 +142,18 @@ img {
 }
 
 .hero-section {
-  background-color: var(--color-navy-blue);
   padding: 188px 0;
   align-items: center;
-  background-image: url(../images/hero/office\ .jpg);
+  background-color: var(--color-navy-blue);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero/hero.jpg);
+
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440;
 }
 
 .buton-hero {
@@ -257,6 +265,8 @@ img {
   background-color: var(--color-white);
   width: calc((100% - 72) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-section-title {
@@ -292,6 +302,24 @@ img {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24;
+}
+.socials-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-iris);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.socials-icons {
+  fill: #ffffff;
 }
 /**
   |============================

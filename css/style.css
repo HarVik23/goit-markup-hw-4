@@ -307,7 +307,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24;
+  gap: 24px;
 }
 .socials-link {
   width: 40px;
@@ -320,6 +320,9 @@ img {
 }
 .socials-icons {
   fill: #ffffff;
+}
+.socials-link:hover .socials-icons {
+  fill: #31d0aa;
 }
 /**
   |============================

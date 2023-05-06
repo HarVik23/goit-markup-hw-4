@@ -319,10 +319,15 @@ img {
   border-radius: 50%;
 }
 .socials-icons {
-  fill: #ffffff;
+  fill: currentColor;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
 }
 .socials-link:hover .socials-icons {
-  fill: #31d0aa;
+  fill: ;
 }
 /**
   |============================
@@ -393,6 +398,8 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about-buton:hover,
@@ -419,6 +426,8 @@ img {
 
 .services-card {
   width: calc((100% - 48px) / 3);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .title-portfolio {

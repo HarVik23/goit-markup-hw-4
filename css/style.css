@@ -219,13 +219,18 @@ img {
   margin-bottom: 8px;
 }
 .feature-icons-blok {
-  width: 264px;
+  outline: 2px solid red;
+
   height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--color-cloud);
   border-radius: 4px;
+  margin-bottom: 8px;
+}
+.feature-icon {
+  fill: #f4f4fd;
 }
 
 /**
@@ -328,7 +333,8 @@ img {
   border-radius: 50%;
 }
 .socials-icons {
-  fill: currentColor;
+  fill: #ffffff;
+
   position: absolute;
   left: 0%;
   right: 0%;

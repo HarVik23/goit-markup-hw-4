@@ -354,6 +354,15 @@ img {
 
 .customers-box {
 }
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
@@ -418,11 +427,20 @@ img {
 }
 
 .footer-list {
+  display: flex;
+  gap: 16px;
 }
 
 .footer-socials-item {
 }
 .footer-link {
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 /**
   |============================

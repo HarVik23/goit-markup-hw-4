@@ -331,10 +331,10 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: #ffffff;
 }
 .socials-icons {
-  fill: #ffffff;
-
+  fill: currentColor;
   position: absolute;
   left: 0%;
   right: 0%;
@@ -378,6 +378,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--color-light-slate);
 }
+
 .customers-icon {
   fill: #998e92;
 }

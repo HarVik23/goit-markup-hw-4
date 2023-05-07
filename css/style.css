@@ -388,7 +388,7 @@ img {
 }
 
 .customers-icon {
-  fill: #998e92;
+  fill: var(--color-cloud)
   fill: currentColor;
 }
 /**
@@ -401,7 +401,7 @@ img {
   align-items: baseline;
 }
 .footer-logo-box {
-  margin-right: 120px;
+  gap: 120px;
 }
 .footer {
   background-color: var(--color-navy-blue);
@@ -414,6 +414,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .studio-footer {
   font-family: "Raleway", sans-serif;
@@ -458,6 +459,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.socials-icon-footer {
+  fill: var(--color-cloud);
 }
 /**
   |============================

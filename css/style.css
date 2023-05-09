@@ -368,6 +368,7 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-top: 0px;
 }
 .customers-item {
   width: calc((100% - 120px) / 6);
@@ -491,6 +492,7 @@ height: 40px;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  margin-top: 0px;
   
 }
 .socials-icons-footer {

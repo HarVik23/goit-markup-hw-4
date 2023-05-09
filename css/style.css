@@ -385,6 +385,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--color-light-slate);
   height: 100%;
+  width: 100%;
   color: var(--color-light-slate);
 }
 
@@ -410,11 +411,15 @@ img {
   |============================
 */
 .footer-box {
-  display: flex;
+   display: flex;
   align-items: baseline;
 }
 .footer-logo-box {
-  gap: 120px;
+  display: inline-block;
+   gap: 120px;
+  
+  
+
 }
 .footer {
   background-color: var(--color-navy-blue);
@@ -427,7 +432,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
+ margin-right: 120px
 }
 .studio-footer {
   font-family: "Raleway", sans-serif;
@@ -449,12 +454,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-
   display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-social {
+
+
 }
 
 .footer-list {
@@ -463,10 +469,12 @@ img {
 }
 
 .footer-socials-item {
+  width: 40px; 
+height: 40px; 
 }
 .footer-link {
-  width: 40px;
-  height: 40px;
+width: 40px; 
+height: 40px; 
   background-color: var(--color-iris);
   display: flex;
   justify-content: center;
@@ -475,6 +483,7 @@ img {
   color: var(--color-cloud);
 }
 .footer-text {
+  
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -482,6 +491,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  
 }
 .socials-icons-footer {
   fill: currentColor;

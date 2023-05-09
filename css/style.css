@@ -392,11 +392,16 @@ img {
   fill: currentColor;
 }
 .customers-link:hover {
-  border-color: var(--color-ocean)
-  color: var(--color-ocean);
+  border-color: var(--color-ocean);
 }
 .customers-link:focus {
-  background-color: var(--color-ocean);
+  border-color: var(--color-ocean);
+ 
+}
+.customers-link:hover {
+ color: var(--color-ocean);
+}
+.customers-link:focus {
   color: var(--color-ocean);
 }
 /**
@@ -580,7 +585,7 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
-portfolio-link:focus {
+.portfolio-link:focus {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /**
